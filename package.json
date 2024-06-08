@@ -1,0 +1,16 @@
+{
+  "name": "health-connect",
+  "version": "1.0.0",
+  "description": "EveryDay Health and wellness monitoring system is a user friendly web based platform for tracking health and wellness progress seamlessly.",
+  "main": "script.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm run start",
+    "client": "cd frontend/health-connect-frontend && npm start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
